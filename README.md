@@ -33,3 +33,7 @@ The current version of the code is compatible with **Apple Health** and the app 
     - Should look something like this: "/Users/chriskarwin/Library/Mobile Documents/iCloud~com~ifunography~HealthExport/Documents/"
   
  3. Upon first using the code you will be prompted to enter the above path 
+ 
+<p align="center">
+<img width="700"  src="main_gui.png">
+</p>
