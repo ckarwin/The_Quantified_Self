@@ -1,5 +1,5 @@
 <p align="center">
-<img width="700"  src="DM_parameter_space_Majorana.png">
+<img width="700" height="100" src="DM_parameter_space_Majorana.png">
 </p>
 
 # The Quantified Self 
