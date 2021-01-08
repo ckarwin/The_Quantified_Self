@@ -1,7 +1,6 @@
 # The Quantified Self 
 ### Optimizing health by learning from the past
 
-[![Release](https://img.shields.io/github/release/The_Quantified_Self.svg)](../../releases)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](../../)
 
 ## Basic Overview <br />
