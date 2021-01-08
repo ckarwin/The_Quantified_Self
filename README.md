@@ -7,4 +7,4 @@ The Quantified Self is a holistic health program that seeks to optimize personal
 
 ## Integrating with Machines  <br />
 
-The current version of the code is compatible with **Apple Health** and **Health Export**.  
+The current version of the code is compatible with **Apple Health** and **Health Auto Export to CSV** [here](https://apps.apple.com/us/app/health-auto-export-to-csv/id1115567069).  
