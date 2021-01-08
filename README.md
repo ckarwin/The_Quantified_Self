@@ -29,6 +29,7 @@ In general, there is a broad range of quantities a user may be interested in tra
 
 * heart rate
 * blood pressure
+* o2 levels
 * weight
 * sleep
 * steps
