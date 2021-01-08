@@ -18,4 +18,4 @@ The current version of the code is compatible with **Apple Health** and the app 
  2. Find the path to iCloud Drive on laptop/desktop:
       - Should look something like this: "/Users/chriskarwin/Library/Mobile Documents/iCloud~com~ifunography~HealthExport/Documents/"
   
-  3. Upon first using the code the user will be prompted to enter the above path 
+ 3. Upon first using the code the user will be prompted to enter the above path 
