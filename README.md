@@ -36,5 +36,5 @@ The current version of the code is compatible with **Apple Health** and the app 
 </pre>
 
 <p align="center">
-<img width="500"  src="main_gui.png">
+<img width="700"  src="main_gui.png">
 </p>
