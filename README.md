@@ -10,12 +10,12 @@ The Quantified Self is a holistic health program that seeks to optimize personal
 The current version of the code is compatible with **Apple Health** and the app **Health Auto Export to CSV** (available [here](https://apps.apple.com/us/app/health-auto-export-to-csv/id1115567069)). In general, there are many different apps that one may use to track different quantities. These are all integrated via Apple Health into a single user interface that contains everything, i.e. one doesn't need to track the data over the numerous apps. The Health Auto Export app synces the data in real time with a user's iCloud Drive. Finaly, The Quantified Self then synces with one's health data through their iCloud drive, which is direclty accesible on there laptop and/or desktop. Note that since the program is ran from the user's computer, and interfaces entirely through Apple applications, the software does not introduce any increased risk to thier data privacy. In summary, to synce the code with a user's health data, the following steps must be taken:
 
 
- 
- <b> 1. Download the Health Auto Export to CSV app, available on Apple iPhone and Apple Watch
+ <pre>
+     1. Download the Health Auto Export to CSV app, available on Apple iPhone and Apple Watch
         - Allow the app to access Apple Health data
         - Synce the app with iCloud Drive
   
-  <b> 2. Find the path to iCloud Drive on laptop/desktop:
+     2. Find the path to iCloud Drive on laptop/desktop:
         - Should look something like this: "/Users/chriskarwin/Library/Mobile Documents/iCloud~com~ifunography~HealthExport/Documents/"
   
-  <b> 3. 
+     3. 
