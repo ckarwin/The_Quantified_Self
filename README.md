@@ -1,7 +1,3 @@
-<p align="center">
-<img width="800" height="200" src="logo.png">
-</p>
-
 # The Quantified Self 
 Optimizing health by learning from the past
 
