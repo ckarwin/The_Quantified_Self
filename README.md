@@ -1,5 +1,5 @@
 <p align="center">
-<img width="1000" height="300" src="logo.png">
+<img width="800" height="200" src="logo.png">
 </p>
 
 # The Quantified Self 
