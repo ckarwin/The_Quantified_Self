@@ -1,3 +1,7 @@
+<p align="center">
+<img width="700"  src="Images/SED.png">
+</p>
+
 # The Quantified Self 
 Optimizing health by learning from the past
 
