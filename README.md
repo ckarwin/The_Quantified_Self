@@ -15,7 +15,7 @@ The current version of the code is compatible with **Apple Health** and the app 
         - Allow the app to access Apple Health data
         - Synce the app with iCloud Drive
   
-  <b> 2. Find the iCloud Drive path on your laptop/desktop:
+  <b> 2. Find the path to iCloud Drive on laptop/desktop:
         - Should look something like this: "/Users/chriskarwin/Library/Mobile Documents/iCloud~com~ifunography~HealthExport/Documents/"
   
   <b> 3. 
