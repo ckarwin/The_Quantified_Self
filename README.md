@@ -11,11 +11,11 @@ The current version of the code is compatible with **Apple Health** and the app 
 
 
  <pre>
-     1. Download the Health Auto Export to CSV app, available on Apple iPhone and Apple Watch
-        - Allow the app to access Apple Health data
-        - Synce the app with iCloud Drive
+ 1. Download the Health Auto Export to CSV app, available on Apple iPhone and Apple Watch
+      - Allow the app to access Apple Health data
+      - Synce the app with iCloud Drive
   
-     2. Find the path to iCloud Drive on laptop/desktop:
-        - Should look something like this: "/Users/chriskarwin/Library/Mobile Documents/iCloud~com~ifunography~HealthExport/Documents/"
+ 2. Find the path to iCloud Drive on laptop/desktop:
+      - Should look something like this: "/Users/chriskarwin/Library/Mobile Documents/iCloud~com~ifunography~HealthExport/Documents/"
   
-     3. 
+  3. Upon first using the code the user will be prompted to enter the above path 
