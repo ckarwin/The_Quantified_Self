@@ -24,7 +24,7 @@ Additionally, there are other quantities that will be more specific to each user
 The current version of the code is compatible with **Apple Health** and the app **Health Auto Export to CSV** (available [here](https://apps.apple.com/us/app/health-auto-export-to-csv/id1115567069)). In general, there are many different apps that one may use to track different quantities. These are all integrated via Apple Health into a single user interface that contains everything, i.e. one doesn't need to track the data over the numerous apps. The Health Auto Export app synces the data in real time with a user's iCloud Drive. Finaly, The Quantified Self then synces with one's health data through their iCloud drive, which is direclty accesible on there laptop and/or desktop. Note that since the program is ran from the user's computer, and interfaces entirely through Apple applications, the software does not introduce any increased risk to thier data privacy. In summary, to synce the code with your health data, the following steps must be taken:
 
 
- <pre>
+<pre>
  1. Download the Health Auto Export to CSV app, available on Apple iPhone and Apple Watch
     - Allow the app to access Apple Health data
     - Synce the app with iCloud Drive
@@ -33,7 +33,8 @@ The current version of the code is compatible with **Apple Health** and the app 
     - Should look something like this: "/Users/chriskarwin/Library/Mobile Documents/iCloud~com~ifunography~HealthExport/Documents/"
   
  3. Upon first using the code you will be prompted to enter the above path 
- 
+</pre>
+
 <p align="center">
-<img width="700"  src="main_gui.png">
+<img width="500"  src="main_gui.png">
 </p>
