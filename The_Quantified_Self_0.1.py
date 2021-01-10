@@ -33,10 +33,13 @@ def Register_User():
     unit_list = ["hr","min","min","hr","0/1","0/1","0/1","0/1","count","oz","lb"]
 
     #path to iCloud drive:
-    update_main = "NA"
+    #update_main = ["NA"]
+    update_main = "/Users/chriskarwin/Library/Mobile Documents/iCloud~com~ifunography~HealthExport/Documents/"
     
     #synce value list:
     synce_value_list = ["NA"]
+    synce_value_list = ["Dietary Water","Step Count","Mindfulness","Weight & Body Mass"]
+
 
     ###############################
 
@@ -208,7 +211,6 @@ def create_main_window():
             [sg.B("Input Data", size=(14,1.5), font=("Times",15)), \
                     sg.B("Evaluate Self", size=(14,1.5), font=("Times",15)), \
                     sg.B("Self-Reflection", size=(14,1.5), font=("Times",15)), \
-                    sg.B("More Info", size=(14,1.5), font=("Times",15)), \
                     sg.B('Exit', size=(14,1.5), font=("Times",15))]]
 
     return sg.Window('Main Application', layout)
