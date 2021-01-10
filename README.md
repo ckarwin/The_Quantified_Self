@@ -37,6 +37,6 @@ In general, there is a broad range of quantities a user may be interested in tra
 * mindfullness
 * nutrition
 
-Additionally, there are other quantities that will be more specific to each user. The Quantified Self allows the user to define their own set of values they wish to track.    
+Additionally, there are other quantities that will be more specific to each user. The Quantified Self allows the user to define their own set of values they wish to track, allowing the code to be specialized to each user's health goals/needs.    
 
 
