@@ -43,10 +43,10 @@ Additionally, there are other quantities that will be more specific to each user
 
 There are 4 values that quantify a user's health: 
 
-* physical health -- the body
-* mental health -- the brain
-* spiritual health -- the soul (there are many other synonyms for this)
-* happiness -- one's overall state of happiness
+* physical health: the body
+* mental health: the brain
+* spiritual health: the soul (there are many other synonyms for this)
+* happiness: one's overall state of content, security, joy, etc. In part, a wieghted sum of the first three evaluation variables.
 
 ## Quickstart Guide <br />
 
