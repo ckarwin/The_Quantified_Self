@@ -41,6 +41,12 @@ Additionally, there are other quantities that will be more specific to each user
 
 ## Quickstart Guide <br />
 
-![Alt text](Images/registration.png)
+<p align="center">
+<img width="600"  src="Images/registration.png">
+</p>
 
-![Alt text](Images/main_overview.png)
+<p align="center">
+<img width="600"  src="Images/main_overview.png">
+</p>
+
+
