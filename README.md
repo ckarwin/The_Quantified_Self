@@ -50,6 +50,8 @@ There are 4 values that quantify a user's health:
 
 These parameters should range from 0-10, and they are the subjective evaluations to be determined by the user. Ideally, health evaluations should be made daily. These are the parameters that the will be optimized over time, according to the input data. As the algorithm learns the input values that maximize the health parameters, is will begin to make recommendations as to future behavours that should be taken. 
 
+The 4 health parameters listed above are the most general components that comprize one's holistic self. In future versions of the code, these inputs should be developed further. Specifically, users will have specific health evaluation parameters that will best quantify thier overall well-being, e.g. they may be focused towards certain diseases such as diabetes, obesity, heart disease, etc. 
+
 Note: the learning algorithm has not yet been applied to the code. 
 
 ## Quickstart Guide <br />
