@@ -37,6 +37,6 @@ In general, there is a broad range of quantities a user may be interested in tra
 * mindfullness
 * nutrition
 
-Additionally, there are other quantities that will be more specific to each user. For example, there may be a particular bad habit that one is working to overcome. It would thus be beneficial to track days for which they were able to practive restraint from the deleterios habbit. In this case the user could define a **value** called **restraint** which has inputs of either 0 or 1. Such a specialized tracker could be anything, e.g. work time, family time, music practice, exercise, etc. The Quantified Self adapts to each user's unique requirements.   
+Additionally, there are other quantities that will be more specific to each user. The Quantified Self allows the user to define their own set of values they wish to track.    
 
 
