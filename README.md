@@ -72,6 +72,7 @@ Note: the learning algorithm has not yet been applied to the code.
 
 4. The main GUI is shown below
      - The synced values will automatically update each day
+     - The daily input data is stored in a csv file in "My Data", and can be directly modified if needed (a better option will be available in future versions of the code)
      - When a tracker is clicked in the "Self Reflection", a plot will appear showing the data
      - The user can specify the time range  of the plot as either day (D), week (W), month (M), year (Y), or all data (A)
 
