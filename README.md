@@ -45,7 +45,7 @@ There are four values that quantify a user's health:
 
 * Physical Health: the body
 * Mental Health: the brain
-* Spiritual Health: the soul (there are many other synonyms for this)
+* Spiritual Health: the soul (there are many synonyms for this)
 * Happiness: one's overall state of content, security, joy, etc. In part, a wieghted sum of the first three evaluation variables.
 
 These parameters should range from 0-10, and they are the subjective evaluations to be determined by the user. Ideally, health evaluations should be made daily. These are the parameters that the will be optimized over time, according to the input data. As the algorithm learns the input values that maximize the health parameters, is will begin to make recommendations as to future behavours that should be taken. 
