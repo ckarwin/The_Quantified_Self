@@ -37,7 +37,7 @@ In general, there is a broad range of quantities a user may be interested in tra
 * mindfullness
 * nutrition
 
-Additionally, there are other quantities that will be more specific to each user. The Quantified Self allows the user to define their own set of values they wish to track, allowing the code to be specialized to each user's health needs/goals. As mentioned above, the code will become increasingly impactful the more automated the inputs become. This will surely be made possible via applications such as Apple Watch (more info [here](https://www.apple.com/watch/)).
+Additionally, there are other quantities that will be more specific to each user. The Quantified Self allows the user to define their own set of values they wish to track, allowing the code to be specialized to each user's health needs/goals. As mentioned above, the code will become increasingly impactful the more automated the inputs become. This will surely be made possible via devices such as Apple Watch (more info [here](https://www.apple.com/watch/)).
 
 ## Health Evaluation <br />
 
