@@ -39,4 +39,6 @@ In general, there is a broad range of quantities a user may be interested in tra
 
 Additionally, there are other quantities that will be more specific to each user. The Quantified Self allows the user to define their own set of values they wish to track, allowing the code to be specialized to each user's health goals/needs.    
 
+## Quickstart Guide <br />
+
 ![Alt text](Images/main_overview.png)
