@@ -79,4 +79,10 @@ The main GUI is shown below. The synced values will automatically update each da
 <img width="600"  src="Images/main_overview.png">
 </p>
 
+## Ongoing Developments <br />
+
+* Implement the deep learning algorithm.
+* Allow user to easily update/modify thier info and data. 
+* Allow the user to easily print a health summary, which can be shared with thier physician.
+* Integrate into the larger program. So far, this will include a daily plan application and a finance application. 
 
