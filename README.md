@@ -68,14 +68,19 @@ Note: the learning algorithm has not yet been applied to the code.
      
 3. Upon first starting the code, the registration GUI will appear, as shown below
      - synced value names must match exactly with the names from Health Auto Export, and the same names must be given for the value list
-     
+     - to re-register remove the directories "My_Info" and "My_Data" (a better option will be available in future versions of the code)
+
+4. The main GUI is shown below
+     - The synced values will automatically update each day
+     - When a tracker is clicked in the "Self Reflection", a plot will appear showing the data
+     - The user can specify the time range  of the plot as either day (D), week (W), month (M), year (Y), or all data (A)
+
 </pre>
 
 <p align="center">
 <img width="600"  src="Images/registration.png">
 </p>
 
-The main GUI is shown below. The synced values will automatically update each day. The self-reflection tab allows the user to see thier data. When a tracker is clicked, a plot will appear showing the data. The user can specify the time range as either day (D), week (W), month (M), year (Y), or all data (A).
 
 <p align="center">
 <img width="600"  src="Images/main_overview.png">
