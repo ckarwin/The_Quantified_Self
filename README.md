@@ -41,7 +41,7 @@ Additionally, there are other quantities that will be more specific to each user
 
 ## Health Evaluation <br />
 
-There are 4 values that quantify a user's health: 
+There are four values that quantify a user's health: 
 
 * Physical Health: the body
 * Mental Health: the brain
