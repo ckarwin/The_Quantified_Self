@@ -56,7 +56,18 @@ Note: the learning algorithm has not yet been applied to the code.
 
 ## Quickstart Guide <br />
 
-The code requires Python3. Currently, the user interacts with the code via the python API. The code can be envoked either from the terminal or the desktop (after specifying in the file info that it should be opened with Python3 as default). Upon first starting the code, the registration GUI will appear, as shown below. If defining values that will be synced with Apple Health, the value names must match exactly with the names from Health Auto Export.
+<pre>
+1. Download the source code (**The_Quantified_Self_0.1.py**) and the units file (**units.csv**)
+     - the code requires python3
+     - the units file is requires for syncing with Apple Health data
+     - it's best to run the code from its own dedicated directory
+
+2. The user interacts with the code via the python API
+     - it can be envoked either from the terminal or the desktop
+     - to run from the desktop: right click file --> Get Info --> Open with = Python Launcher 3
+</pre>
+
+Upon first starting the code, the registration GUI will appear, as shown below. Hofefully, everything is pretty self-explanatory. If defining values that will be synced with Apple Health, the value names must match exactly with the names from Health Auto Export, and the same names must be given for the value list.
 
 <p align="center">
 <img width="600"  src="Images/registration.png">
