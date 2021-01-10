@@ -77,13 +77,13 @@ Note: the learning algorithm has not yet been applied to the code.
 
 </pre>
 
-# Registration Screen
+## Registration Screen
 
 <p align="center">
 <img width="600"  src="Images/registration.png">
 </p>
 
-# Main User Interface
+## Main User Interface
 
 <p align="center">
 <img width="600"  src="Images/main_overview.png">
