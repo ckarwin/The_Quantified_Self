@@ -24,7 +24,7 @@ The current version of the code is only compatible with **Apple Health** and the
  3. Upon first using the code you will be prompted to enter the above path 
 </pre>
 
-## Tracked Quantities <br />
+## Input Data <br />
 
 In general, there is a broad range of quantities a user may be interested in tracking. Some of these may include
 
@@ -37,7 +37,16 @@ In general, there is a broad range of quantities a user may be interested in tra
 * mindfullness
 * nutrition
 
-Additionally, there are other quantities that will be more specific to each user. The Quantified Self allows the user to define their own set of values they wish to track, allowing the code to be specialized to each user's health goals/needs.    
+Additionally, there are other quantities that will be more specific to each user. The Quantified Self allows the user to define their own set of values they wish to track, allowing the code to be specialized to each user's health needs/goals.
+
+## Health Evaluation <br />
+
+There are 4 values that quantify a user's health: 
+
+* physical health -- the body
+* mental health -- the brain
+* spiritual health -- the soul (there are many other synonyms for this)
+* happiness -- one's overall state of happiness
 
 ## Quickstart Guide <br />
 
