@@ -23,23 +23,35 @@ import matplotlib.ticker as ticker
 #register new user:
 def Register_User():
 
-    #defaults for main value list and unit list:
+    ################################
+    #define defaults:
+    
     value_list = ['Sleep','read','Mindfulness','work',\
             'yoga','gym','diet','restraint',\
             'Step Count','Dietary Water','Weight & Body Mass']
 
     unit_list = ["hr","min","min","hr","0/1","0/1","0/1","0/1","count","oz","lb"]
 
+    #path to iCloud drive:
+    update_main = "NA"
+    
+    #synce value list:
+    synce_value_list = ["NA"]
+
+    ###############################
+
     #get info for returning user:
     if os.path.exists("My_Info/info.txt")==True:
     
         f = open("My_Info/info.txt","r")
-        lines = f.readlines()
-        username=lines[0].strip()
-        value_list = eval(lines[1])
-        unit_list = eval(lines[2])
-        
-        return username, value_list, unit_list
+        info_dict = eval(f.read())
+        username=info_dict["username"]
+        value_list = info_dict["value_list"]
+        unit_list = info_dict["unit_list"]
+        update_main = info_dict["synce_path"]
+        synce_value_list = np.array(info_dict["synce_list"])
+
+        return username, value_list, unit_list, update_main, synce_value_list
 
     #register new user:
     if os.path.exists("My_Info/info.txt")==False:
@@ -101,15 +113,24 @@ def Register_User():
                 if value_string and len(str(unit_string)) == 0:
                     unit_list = ["NA"]*len(value_list)
 
+                #get synce path:
+                this_synce_path = values[3]
+                if this_synce_path:
+                    update_main = this_synce_path
+
+                #get synce value:
+                this_synce_list = values[4]
+                if this_synce_list:
+                    synce_value_list = this_synce_list
+
+                d = {"username":username, "value_list":value_list, "unit_list":unit_list, "synce_path":update_main, "synce_list":synce_value_list}
                 f = open("My_Info/info.txt","w")
-                f.write(username+"\n")
-                f.write(str(value_list)+"\n")
-                f.write(str(unit_list))
+                f.write(str(d))
                 f.close()
 
                 window.close()
 
-                return username, value_list, unit_list
+                return username, value_list, unit_list, update_main, synce_value_list
 
 ############### Start Initial Setup ###############
 
@@ -117,7 +138,7 @@ def Register_User():
 sg.theme('LightGrey6')
 
 #register user:
-username, value_list, unit_list  = Register_User()
+username, value_list, unit_list, update_main, synce_value_list  = Register_User()
 
 #get today:
 today = date.today()
@@ -133,11 +154,18 @@ tomorrow = today + datetime.timedelta(days = 1)
 eval_list = ["Physical Health","Mental Health","Spiritual Health","Happiness"]
 
 #define synce values:
-update_main = "/Users/chriskarwin/Library/Mobile Documents/iCloud~com~ifunography~HealthExport/Documents/"
 update_path = os.path.join(update_main,str(year),str(today.strftime("%B")),str(today),"")
 
-synce_value_list = np.array(["Dietary Water","Step Count","Mindfulness","Weight & Body Mass"])
-synce_unit_list = np.array([" (fl_oz_us) "," (count) "," (min) ", " (lb) "])
+#get units:
+unit_df = pd.read_csv("units.csv")
+name = unit_df["name"]
+unit = unit_df["unit"]
+synce_unit_list = []
+for each in synce_value_list:
+    unit_index = name == each
+    synce_unit_list.append(unit[unit_index])
+synce_unit_list = np.array(synce_unit_list)
+
 column_name_list = np.core.defchararray.add(synce_value_list, synce_unit_list)
 file_root = "-" + str(today) + ".csv"
 
