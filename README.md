@@ -66,14 +66,14 @@ Note: the learning algorithm has not yet been applied to the code.
      - it can be envoked either from the terminal or the desktop
      - to run from the desktop: right click python file --> Get Info --> Open with --> set to Python Launcher 3
      
-3. Upon first starting the code, the registration GUI will appear, as shown below
+3. Upon first starting the code, the registration screen will appear, as shown below
      - synced value names must match exactly with the names from Health Auto Export, and the same names must be given for the value list
      - to re-register remove the directories "My_Info" and "My_Data" (a better option will be available in future versions of the code)
 
-4. The main GUI is shown below
+4. The main user interface is shown below
      - The synced values will automatically update each day
      - The daily input data is stored in a csv file in "My_Data", and can be directly modified if needed (a better option will be available in future versions of the code)
-     - When a tracker is clicked in the "Self Reflection", a plot will appear showing the data
+     - When a tracker is clicked in the "Self Reflection" tab, a plot will appear showing the data
      - The user can specify the time range  of the plot as either day (D), week (W), month (M), year (Y), or all data (A)
 
 </pre>
