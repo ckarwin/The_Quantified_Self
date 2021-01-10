@@ -59,7 +59,7 @@ Note: the learning algorithm has not yet been applied to the code.
 <pre>
 1. Download the source code (<b>The_Quantified_Self_0.1.py</b>) and the units file (<b>units.csv</b>)
      - the code requires python3
-     - the units file is requires for syncing with Apple Health data
+     - the units file is required for syncing with Apple Health data
      - it's best to run the code from its own dedicated directory
 
 2. The user interacts with the code via the python API
