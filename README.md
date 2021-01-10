@@ -62,7 +62,7 @@ Note: the learning algorithm has not yet been applied to the code.
      - the units file is required for syncing with Apple Health data
      - it's best to run the code from its own dedicated directory
 
-2. The user interacts with the code via the python API
+2. The user interacts with the code via the python API (a better option will be available in future versions of the code)
      - it can be envoked either from the terminal or the desktop
      - to run from the desktop: right click python file --> Get Info --> Open with --> set to Python Launcher 3
      
