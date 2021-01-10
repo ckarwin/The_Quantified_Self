@@ -41,9 +41,13 @@ Additionally, there are other quantities that will be more specific to each user
 
 ## Quickstart Guide <br />
 
+The code requires Python3. Currently, the user interacts with the code via the python API. The code can be envoked either from the terminal or the desktop (after specifying in the file info that it should be opened with Python3 as default). Upon first starting the code, the registration GUI will appear, as shown below. If defining values that will be synced with Apple Health, the value names must match exactly with the names from Health Auto Export.
+
 <p align="center">
 <img width="600"  src="Images/registration.png">
 </p>
+
+The main GUI is shown below. The "Input Data" tab allows the user to input thier daily data. The synced values will automatically update each day. The "Evaluate Self" tab allow the user to input thier own daily health assesment. Finaly, the self-reflection tab allows the user to see thier data. When a tracker is clicked a plot will appear showing the data. The user can specify the time range as either day (D), week (W), month (M), year (Y), or all data (A).
 
 <p align="center">
 <img width="600"  src="Images/main_overview.png">
