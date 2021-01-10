@@ -67,13 +67,13 @@ Note: the learning algorithm has not yet been applied to the code.
      - to run from the desktop: right click file --> Get Info --> Open with = Python Launcher 3
 </pre>
 
-Upon first starting the code, the registration GUI will appear, as shown below. Hofefully, everything is pretty self-explanatory. If defining values that will be synced with Apple Health, the value names must match exactly with the names from Health Auto Export, and the same names must be given for the value list.
+Upon first starting the code, the registration GUI will appear, as shown below. Hopefully, everything is pretty self-explanatory. If defining values that will be synced with Apple Health, the value names must match exactly with the names from Health Auto Export, and the same names must be given for the value list.
 
 <p align="center">
 <img width="600"  src="Images/registration.png">
 </p>
 
-The main GUI is shown below. The "Input Data" tab allows the user to input thier daily data. The synced values will automatically update each day. The "Evaluate Self" tab allow the user to input thier own daily health assesment. Finaly, the self-reflection tab allows the user to see thier data. When a tracker is clicked a plot will appear showing the data. The user can specify the time range as either day (D), week (W), month (M), year (Y), or all data (A).
+The main GUI is shown below. The synced values will automatically update each day. The self-reflection tab allows the user to see thier data. When a tracker is clicked, a plot will appear showing the data. The user can specify the time range as either day (D), week (W), month (M), year (Y), or all data (A).
 
 <p align="center">
 <img width="600"  src="Images/main_overview.png">
