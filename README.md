@@ -64,7 +64,7 @@ Note: the learning algorithm has not yet been applied to the code.
 
 2. The user interacts with the code via the python API
      - it can be envoked either from the terminal or the desktop
-     - to run from the desktop: right click file --> Get Info --> Open with = Python Launcher 3
+     - to run from the desktop: right click python file --> Get Info --> Open with --> set to Python Launcher 3
 </pre>
 
 Upon first starting the code, the registration GUI will appear, as shown below. Hopefully, everything is pretty self-explanatory. If defining values that will be synced with Apple Health, the value names must match exactly with the names from Health Auto Export, and the same names must be given for the value list.
