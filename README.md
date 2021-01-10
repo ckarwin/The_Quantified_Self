@@ -83,6 +83,6 @@ The main GUI is shown below. The synced values will automatically update each da
 
 * Implement the deep learning algorithm.
 * Allow user to easily update/modify thier info and data. 
-* Allow the user to easily print a health summary, which can be shared with thier physician.
-* Integrate into the larger program. So far, this will include a daily plan application and a finance application. 
+* Allow the user to easily print a health summary, which can be shared with thier physician, etc.
+* Integrate The Quantified Self into the larger program. So far, this will include a daily plan application and a finance application. 
 
