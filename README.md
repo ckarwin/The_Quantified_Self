@@ -96,5 +96,5 @@ Note: the learning algorithm has not yet been applied to the code.
 * Allow user to easily update/modify thier info and data. 
 * Allow the user to easily print a health summary, which can be shared with thier physician, etc.
 * Integrate The Quantified Self into the larger program. So far, this will include a daily planner application and a finance application. 
-* Integrate into a single central hub for all medical data. Define a "health score" that can be used as an incentive for health insurance companies.
+* Integrate The Quantified Self into a single central hub for all medical data. Define a "health score" that can be used as an incentive by health insurance companies.
 
