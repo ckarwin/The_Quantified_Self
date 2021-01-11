@@ -37,7 +37,6 @@ def Register_User():
     update_main = "/Users/chriskarwin/Library/Mobile Documents/iCloud~com~ifunography~HealthExport/Documents/"
     
     #synce value list:
-    synce_value_list = ["NA"]
     synce_value_list = ["Dietary Water","Step Count","Mindfulness","Weight & Body Mass"]
 
 
@@ -52,7 +51,7 @@ def Register_User():
         value_list = info_dict["value_list"]
         unit_list = info_dict["unit_list"]
         update_main = info_dict["synce_path"]
-        synce_value_list = np.array(info_dict["synce_list"])
+        synce_value_list = info_dict["synce_list"]
 
         return username, value_list, unit_list, update_main, synce_value_list
 
@@ -166,9 +165,10 @@ unit = unit_df["unit"]
 synce_unit_list = []
 for each in synce_value_list:
     unit_index = name == each
-    synce_unit_list.append(unit[unit_index])
+    synce_unit_list.append(unit[unit_index].tolist()[0])
 synce_unit_list = np.array(synce_unit_list)
 
+synce_value_list = np.array(synce_value_list)
 column_name_list = np.core.defchararray.add(synce_value_list, synce_unit_list)
 file_root = "-" + str(today) + ".csv"
 
@@ -269,7 +269,7 @@ def Input_Data():
 
             except:
                 update_value = 0
-
+            
             layout_list.append([sg.Text('%s (%s)' %(each,unit), size=(22, 1), font=("Times",35)), sg.InputText(update_value,size=(8, 1), font=("Times",25))])
 
     layout_list.append([sg.Submit(size=(14,1.5), font=("Times",15)), sg.Cancel(size=(14, 1.5), font=("Times",15))])
