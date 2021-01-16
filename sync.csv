@@ -1,0 +1,8 @@
+name,sync_name,col_name
+"water","Dietary Water","water (flOzUS) "
+"steps","Step Count","stepCount (count) "
+"weight","Weight & Body Mass","bodyMass (pounds) "
+"mindfulness","Mindful Minutes","mindfulMinutes (minutes) "
+"sleep","Sleep Analysis","Time Asleep (hours)"
+"body fat","Body Fat Percentage","bodyFatPercentage (percent) "
+"BMI","Body Mass Index","bodyMassIndex (count) "

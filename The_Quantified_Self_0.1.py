@@ -26,18 +26,18 @@ def Register_User():
     ################################
     #define defaults:
     
-    value_list = ['Sleep','read','Mindfulness','work',\
+    value_list = ['sleep','read','mindfulness','work',\
             'yoga','gym','diet','restraint',\
-            'Step Count','Dietary Water','Weight & Body Mass']
+            'steps','water','weight','body fat','BMI']
 
-    unit_list = ["hr","min","min","hr","0/1","0/1","0/1","0/1","count","oz","lb"]
+    unit_list = ["hr","min","min","hr","0/1","0/1","0/1","0/1","count","oz","lb","%","count"]
 
     #path to iCloud drive:
     #update_main = ["NA"]
     update_main = "/Users/chriskarwin/Library/Mobile Documents/iCloud~com~ifunography~HealthExport/Documents/"
     
     #synce value list:
-    synce_value_list = ["Dietary Water","Step Count","Mindfulness","Weight & Body Mass"]
+    synce_value_list = ["water","steps","mindfulness","weight","sleep"]
 
 
     ###############################
@@ -158,18 +158,13 @@ eval_list = ["Physical Health","Mental Health","Spiritual Health","Happiness"]
 #define synce values:
 update_path = os.path.join(update_main,str(year),str(today.strftime("%B")),str(today),"")
 
-#get units:
-unit_df = pd.read_csv("units.csv")
-name = unit_df["name"]
-unit = unit_df["unit"]
-synce_unit_list = []
-for each in synce_value_list:
-    unit_index = name == each
-    synce_unit_list.append(unit[unit_index].tolist()[0])
-synce_unit_list = np.array(synce_unit_list)
+#get sync info:
+sync_df = pd.read_csv("sync.csv")
+code_name = sync_df["name"]
+sync_name = sync_df["sync_name"]
+sync_col_name = sync_df["col_name"]
 
 synce_value_list = np.array(synce_value_list)
-column_name_list = np.core.defchararray.add(synce_value_list, synce_unit_list)
 file_root = "-" + str(today) + ".csv"
 
 #setup data directory:
@@ -182,7 +177,7 @@ if os.path.exists(this_file) == False:
     #write main data frame:
     d_input = {"date":today}
     for i in range(0,len(value_list)):
-        d_input[value_list[i]] = 0
+        d_input[value_list[i]] = ""
     df = pd.DataFrame(data=d_input,index=[0])
     df.to_csv("%s" %this_file,index=False, sep=",")
 
@@ -257,18 +252,17 @@ def Input_Data():
     
         #automatic data:
         if each in synce_value_list:
-
+           
             try: 
                 #get auto data:
-                update_index = synce_value_list == each
-                update_df_file = update_path + synce_value_list[update_index][0] + file_root
-                update_df = pd.read_csv(update_df_file)
-                update_name = column_name_list[update_index]
-                update_value = np.sum(update_df[update_name])[0]
+                update_index = code_name == each
+                update_df_file = update_path + sync_name[update_index] + file_root
+                update_df = pd.read_csv(update_df_file.tolist()[0])
+                update_value = np.sum(update_df[sync_col_name[update_index].tolist()[0]])
                 update_value = "{:.1f}".format(update_value)
 
             except:
-                update_value = 0
+                update_value = ""
             
             layout_list.append([sg.Text('%s (%s)' %(each,unit), size=(22, 1), font=("Times",35)), sg.InputText(update_value,size=(8, 1), font=("Times",25))])
 
