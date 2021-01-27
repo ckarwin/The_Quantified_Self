@@ -30,7 +30,7 @@ def Register_User():
             'yoga','gym','diet','restraint',\
             'steps','water','weight','body fat','BMI']
 
-    unit_list = ["hr","min","min","hr","0/1","0/1","0/1","0/1","count","oz","lb","%","count"]
+    unit_list = ["hr","min","min","hr","min","min","0/1","0/1","count","oz","lb","%","count"]
 
     #path to iCloud drive:
     #update_main = ["NA"]
@@ -400,7 +400,7 @@ def Self_Reflection():
         if plot_range == "plot_week":
             upper = len(x_list)
             if upper >= 7:
-                lower = upper - upper
+                lower = upper - 7
             if upper < 7:
                 lower = 0
             x_list = x_list[lower:upper]
