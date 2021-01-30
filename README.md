@@ -85,7 +85,7 @@ Note: the learning algorithm has not yet been applied to the code.
 ## Main User Interface
 
 <p align="center">
-<img width="600"  src="Images/main_overview2.png">
+<img width="600"  src="Images/main_overview.png">
 </p>
 
 ## Ongoing Developments <br />
