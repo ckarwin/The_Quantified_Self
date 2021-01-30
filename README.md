@@ -90,7 +90,7 @@ Note: the learning algorithm has not yet been applied to the code.
 
 ## Ongoing Developments <br />
 
-* Implement the deep learning algorithm.
+* Implement the learning algorithm.
 * Allow user to easily update/modify thier info and data. 
 * Allow the user to easily print a health summary, which can be shared with thier physician, etc.
 * Implement a device/application that continually monitors the user's blood levels, allowing for early diagnosis of abnormalities.
