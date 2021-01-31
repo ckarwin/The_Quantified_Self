@@ -88,11 +88,3 @@ Note: the learning algorithm has not yet been applied to the code.
 <img width="600"  src="Images/main_overview.png">
 </p>
 
-## Ongoing Developments <br />
-
-* Implement the learning algorithm.
-* Allow user to easily update/modify thier info and data. 
-* Allow the user to easily print a health summary, which can be shared with thier physician, etc.
-* Implement a device/application that continually monitors the user's blood levels, allowing for early diagnosis of abnormalities.
-* Integrate The Quantified Self into a single central hub for all medical data. Define a "health score" that can be used as an incentive by health insurance companies.
-* Integrate The Quantified Self into a larger program. So far, this will include a daily planner application and a finance application. 
